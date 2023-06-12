@@ -6,5 +6,5 @@ docker push "docker hub username"/hello:latest
 kubectl apply -f hello-deployment.yaml
 kubectl get pods
 kubectl exec --stdin --tty "pod name"  -- bash
-curl localhost:5000
+curl localhost:5000/hello
 ```
